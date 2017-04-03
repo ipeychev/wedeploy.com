@@ -1,7 +1,0 @@
-{
-	"id": "ui",
-	"type": "wedeploy/hosting:latest",
-	"env": {
-		"WEDEPLOY_WEB_PATH": "/dist/"
-	}
-}

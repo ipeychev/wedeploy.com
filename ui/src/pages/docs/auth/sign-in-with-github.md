@@ -77,6 +77,9 @@ Or you can add those environment variables using the dashboard.
 
 </article>
 
+### API nuances
+Sign-in with GitHub provider is currently not available in Node.js and React Native environments.
+
 ## What's next?
 
 * Now we're ready to start [enabling other login providers into your app](/docs/auth/sign-in-with-google.html).

@@ -12,7 +12,7 @@ weight: 3
 
 <article id="1">
 
-## Sign-in with facebook
+## Sign-in with Facebook
 
 To sign in by redirecting to the sign-in page, call `signInWithRedirect`:
 
@@ -76,6 +76,9 @@ Or you can add those environment variables using the dashboard.
 ![Project Container Environment](https://cloud.githubusercontent.com/assets/1435318/20008140/24531efc-a27e-11e6-9cdb-651086f7bae8.png)
 
 </article>
+
+### API nuances
+Sign-in with Facebook provider is currently not available in Node.js and React Native environments.
 
 ## What's next?
 

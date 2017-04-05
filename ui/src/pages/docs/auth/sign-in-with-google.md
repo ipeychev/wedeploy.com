@@ -78,4 +78,7 @@ Or you can add those environment variables using the dashboard.
 
 ## What's next?
 
+### API nuances
+Sign-in with Google provider is currently not available in Node.js and React Native environments.
+
 * Learn how to sign-up users using their [email and password into your app](/docs/auth/sign-in-with-password.html).

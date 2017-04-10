@@ -18,7 +18,7 @@ To sign in by redirecting to the sign-in page, call `signInWithRedirect`:
 
 
 ```javascript
-var auth = WeDeploy.auth();
+var auth = WeDeploy.auth('http://<serviceID>.<projectID>.wedeploy.io');
 
 var provider = new auth.provider.Github();
 provider.setProviderScope("user:email");

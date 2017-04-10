@@ -18,7 +18,7 @@ To sign in by email and password, call `signInWithEmailAndPassword`:
 
 ```javascript
 WeDeploy
-	.auth()
+	.auth('http://<serviceID>.<projectID>.wedeploy.io')
 	.signInWithEmailAndPassword("user@domain.com", "password")
 	.then(function(user) {
 		// User is signed in.

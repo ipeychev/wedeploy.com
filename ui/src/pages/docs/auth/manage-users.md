@@ -18,7 +18,7 @@ You create a new user in your WeDeploy project by calling the `createUser` metho
 
 ```javascript
 WeDeploy
-	.auth()
+	.auth('http://<serviceID>.<projectID>.wedeploy.io')
 	.createUser({
 		email: 'user@domain.com',
 		password: 'abc'
@@ -49,7 +49,7 @@ WeDeploy
 ## Get current user
 
 ```javascript
-var currentUser = WeDeploy.auth().currentUser;
+var currentUser = WeDeploy.auth('http://<serviceID>.<projectID>.wedeploy.io').currentUser;
 
 if (currentUser) {
 	// User is signed in.
@@ -77,7 +77,7 @@ WeDeploy
 
 ```javascript
 WeDeploy
-	.auth()
+	.auth('http://<serviceID>.<projectID>.wedeploy.io')
 	.getUser(userId)
 	.then(function(user) {
 		// User found.
@@ -107,7 +107,7 @@ WeDeploy
 You can delete a user account with the delete method. For example:
 
 ```javascript
-var currentUser = WeDeploy.auth().currentUser;
+var currentUser = WeDeploy.auth('http://<serviceID>.<projectID>.wedeploy.io').currentUser;
 
 currentUser
 	.deleteUser()
@@ -139,7 +139,7 @@ WeDeploy
 You can update a user's basic information. For example:
 
 ```javascript
-var currentUser = WeDeploy.auth().currentUser;
+var currentUser = WeDeploy.auth('http://<serviceID>.<projectID>.wedeploy.io').currentUser;
 
 currentUser
 	.updateUser({
@@ -177,7 +177,7 @@ You can send a password reset email to a user with the sendPasswordResetEmail me
 
 ```javascript
 WeDeploy
-	.auth()
+	.auth('http://<serviceID>.<projectID>.wedeploy.io')
 	.sendPasswordResetEmail("user@domain.com")
 	.then(function() {
 		// Email sent.
@@ -206,7 +206,7 @@ WeDeploy
 
 ```javascript
 WeDeploy
-	.auth()
+	.auth('http://<serviceID>.<projectID>.wedeploy.io')
 	.signOut()
 	.then(function() {
 		// User is signed out.

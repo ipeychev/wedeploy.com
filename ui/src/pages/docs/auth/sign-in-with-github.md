@@ -45,7 +45,7 @@ auth.signInWithRedirect(provider: provider) { (user, error) in
 
 ###### <span class="icon-16-alert"></span> Attention
 
-Sign-in with GitHub provider is currently not available in Node.js and React Native environments.
+Sign-in with Github provider is currently not available in Node.js. For React Native and React VR, please see [here](/docs/auth/oauth-react-native-vr.html).
 
 </aside>
 

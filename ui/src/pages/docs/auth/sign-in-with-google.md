@@ -12,7 +12,7 @@ weight: 5
 
 <article id="1">
 
-## Sign-in with google
+## Sign-in with Google
 
 To sign in by redirecting to the sign-in page, call `signInWithRedirect`:
 
@@ -44,7 +44,7 @@ auth.signInWithRedirect(provider: provider) { (user, error) in
 
 ###### <span class="icon-16-alert"></span> Attention
 
-Sign-in with Google provider is currently not available in Node.js and React Native environments.
+Sign-in with Google provider is currently not available in Node.js. For React Native and React VR, please see [here](/docs/auth/oauth-react-native-vr.html).
 
 </aside>
 
@@ -54,7 +54,7 @@ Sign-in with Google provider is currently not available in Node.js and React Nat
 
 ## Setup app client id and secret
 
-Create a client id and client secret by [registering your application](https://developers.google.com/youtube/registering_an_application) on Google. 
+Create a client id and client secret by [registering your application](https://developers.google.com/youtube/registering_an_application) on Google.
 
 <aside>
 

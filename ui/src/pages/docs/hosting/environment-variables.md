@@ -33,4 +33,19 @@ Here is a list of all the environment variable keys you can use with this servic
 
 </div>
 
+<aside>
+
+###### <span class="icon-16-alert"></span> Attention
+
+The folder specified in `WEDEPLOY_WEB_PATH` will be resolved relative to the folder where the `container.json` is located. In the example below, if `WEDEPLOY_WEB_PATH` is specified as `dist/`, then `dist` folder must be next to `container.json`.
+
+```
+myapp
+  ├── container.json
+  ├── dist
+  └── src
+```
+
+</aside>
+
 </article>

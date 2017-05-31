@@ -34,8 +34,8 @@ Another thing you can do in your `container.json` file is add environment variab
 {
 	"id": "hosting",
 	"type": "wedeploy/hosting:latest",
-	"env" {
-		WEDEPLOY_WEB_PATH: "/dist/"
+	"env": {
+		"WEDEPLOY_WEB_PATH": "/dist/"
 	}
 }
 ```

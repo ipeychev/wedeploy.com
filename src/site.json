@@ -6,7 +6,7 @@
 	"version": {
 		"api": {
 			"android": "0.1.0",
-			"javascript": "2.3.1"
+			"javascript": "3.0.2"
 		},
 		"image": {
 			"auth": "0.0.1",

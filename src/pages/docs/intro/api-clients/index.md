@@ -31,7 +31,11 @@ You can use this by adding a script element in your HTML file or to load the lib
 **CDN**
 
 ```xml
+// If you want to use a specific version
 <script src="https://cdn.wedeploy.com/api/@site.version.api.javascript@/wedeploy.js"></script>
+
+// Or if you want to use always the latest version
+<script src="https://cdn.wedeploy.com/api/latest/wedeploy.js"></script>
 ```
 
 **NPM**

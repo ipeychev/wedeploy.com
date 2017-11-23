@@ -82,7 +82,7 @@ Performance results when Chrome loads [wedeploy.com](wedeploy.com) using HTTP/2 
 
 #### That's cool, glad your site got better, but how do I get these benefits in my application?
 
-Glad you asked! There is no need to do anything, your application with get HTTP/2 support out-of-the-box. You know the deal - forget about infrastructure, that's our job. Your job is to create outstanding applications.
+Glad you asked! There is no need to do anything, all services you deploy will get support for HTTP/2 automatically. You know the deal - forget about infrastructure, that's our job. Your job is to create outstanding applications.
 
 Happy hacking!
 

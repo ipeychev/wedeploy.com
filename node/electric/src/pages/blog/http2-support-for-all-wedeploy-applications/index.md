@@ -1,7 +1,7 @@
 ---
 title: "HTTP/2 Support for All WeDeploy Applications"
 description: "We are happy to announce a big improvement regarding performance - now HTTP/2 is the default protocol for all applications hosted on WeDeploy. This is a big step ahead, carrying multiple benefits."
-date: "November 23, 2017"
+date: "November 27, 2017"
 author: "Iliyan Peychev"
 layout: "blog"
 ---

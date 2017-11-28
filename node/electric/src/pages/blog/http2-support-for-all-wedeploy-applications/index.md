@@ -17,7 +17,7 @@ If you are not aware of HTTP/2, this is the latest version of HTTP and is now [a
 
 In contrary to HTTP 1.1, HTTP/2 is a binary protocol, fully multiplexed, uses one connection for parallelism, uses header compression to reduce overhead and allows servers to "push" resources like CSS and images proactively into client caches. If you need more information please [read here](https://http2.github.io/) or [watch this](https://www.youtube.com/watch?v=qyexqwG6fGI).
 
-With fewer connections because of HTTP/2, your site will make fewer requests to the server. This will save on your application costs and allow you to handle more demanding traffic loads with fewer resources.
+With fewer connections because of HTTP/2, the number of necessary network round-trips will be reduced. This will save on your application costs and allow you to handle more demanding traffic loads with fewer resources.
 
 #### A real example
 

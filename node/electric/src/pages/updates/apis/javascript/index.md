@@ -4,6 +4,10 @@ description: "Check out the latest releases of the WeDeploy"
 layout: "updates"
 updates:
  -
+  version: 4.2.0
+  date: Jan 3rd, 2018
+  description: Add `follow_redirect` option to requests made with Node.js.
+ -
   version: 4.1.1
   date: Oct 28th, 2017
   description: Fixed issue with `watch` method in Data when SDK was imported as a module.

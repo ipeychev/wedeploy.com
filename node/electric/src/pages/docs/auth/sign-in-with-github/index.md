@@ -72,7 +72,7 @@ WeDeploy.auth(authUrl)
 
 ###### <span class="icon-16-alert"></span> Attention
 
-Sign-in with GitHub provider is currently not available in Node.js and React Native environments.
+Sign-in with GitHub provider is currently not available in Node.js environment.
 
 </aside>
 

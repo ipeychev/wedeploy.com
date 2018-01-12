@@ -72,7 +72,7 @@ WeDeploy.auth(authUrl)
 
 ###### <span class="icon-16-alert"></span> Attention
 
-Sign-in with Facebook provider is currently not available in Node.js environment.
+Sign-in with Facebook provider is currently not available in Node.js environment. In React Native, Auth requires interacting with incoming and outgoing app links. Please read [here](https://help.wedeploy.com/user-authentication/how-to-setup-oauth-in-react-native) or check out our [boilerplate application](https://github.com/wedeploy/boilerplate-auth/tree/react-native).
 
 </aside>
 

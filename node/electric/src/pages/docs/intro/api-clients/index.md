@@ -55,6 +55,10 @@ This library is compatible with all major browsers (Chrome, Firefox, Safari, Edg
 
 The API calls are the same in all JavaScript environments.
 
+##### API Reference
+
+The API reference [documentation](/apidocs/javascript/index.html) provides detailed information for each of the classes and methods in the JS SDK.
+
 ##### Source Code
 
 All our SDKs are available as open source projects. You can check the source code of this [library on GitHub](https://github.com/wedeploy/wedeploy-sdk-js).

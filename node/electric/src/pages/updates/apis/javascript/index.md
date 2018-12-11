@@ -4,6 +4,10 @@ description: "Check out the latest releases of the WeDeploy"
 layout: "updates"
 updates:
  -
+  version: 4.5.1
+  date: Dec 11th, 2018
+  description: Fixed an issue with passing incorrect params to Filter's `none` and `any` functions.
+ -
   version: 4.5.0
   date: June 28th, 2018
   description: Added a new method `wildcard` to Data to search raw data instead tokens.
